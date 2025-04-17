@@ -1,32 +1,33 @@
-# 🏨 Hotel Management System
+# Hotel Management System
 
-A hotel management system developed using **Python** and **MySQL** to handle customer details, room bookings, billing, and modifications.  
-This project was originally built in **Class 12** as an academic project, reflecting early interest in software development and real-world applications.
+This project is a basic Hotel Management System developed using **Python** and **MySQL**. It is designed to perform operations such as customer data entry, room booking, rent calculation, billing, and record modification. The system simulates core administrative functionalities typically required in hotel management.
 
----
-
-## 📋 Features
-
-- 📌 Customer Information Entry  
-- 📅 Booking Records (Check-in & Check-out)  
-- 🛏️ Room Allocation with Rent Calculation  
-- 🧾 Automated Billing System  
-- ✏️ Modify and Delete Customer Details  
-- 🔍 Search Across All Records  
+> Originally developed as an academic project during Class 12, this system reflects early exposure to software development concepts and database integration.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-- **Language**: Python 3  
+- Customer data management
+- Room booking with check-in and check-out tracking
+- Automated room rent calculation
+- Total bill generation
+- Modification and deletion of customer records
+- Record searching and display
+
+---
+
+## Technologies Used
+
+- **Programming Language**: Python 3  
 - **Database**: MySQL  
-- **Connector**: `mysql-connector-python`
+- **Connector**: `mysql-connector-python`  
 
 ---
 
-## ⚙️ How to Run
+## Installation & Execution
 
-1. Make sure **MySQL** is installed and running.
-2. Install the required connector:
+1. Ensure that **MySQL** is installed and running on your system.
+2. Install the required Python package:
    ```bash
    pip install mysql-connector-python
