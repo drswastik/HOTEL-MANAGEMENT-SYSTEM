@@ -3,7 +3,7 @@
 import mysql.connector
 #ESTABLISHING MYSQL CONNECTION
 uname=input('Enter Login Id:')
-password=input('Enter Password:')
+password=input('Enter Password:') 
 if uname=='root':
    mycon=mysql.connector.connect(host='localhost', username=uname, passwd=password)
    cursor=mycon.cursor()
